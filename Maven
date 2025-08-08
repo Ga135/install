@@ -3,5 +3,3 @@ sudo dnf install -y java-17-amazon-corretto
 wget https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip
 sudo yum install unzip -y
 unzip apache-maven-3.9.11-bin.zip
-sudo ln -s /home/ec2-user/apache-maven-3.9.11/bin/mvn /usr/local/bin/mvn
-sudo chmod 777 /usr/local/bin/mvn
