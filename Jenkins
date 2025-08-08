@@ -10,5 +10,6 @@ sudo dnf install -y jenkins
 sudo systemctl daemon-reload
 sudo ln -s /usr/bin/jenkins /usr/local/bin/jenkins
 sudo chmod 777 /usr/local/bin/jenkins
-
-
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
