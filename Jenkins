@@ -6,7 +6,7 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 sudo dnf upgrade
 # Add required dependencies for the jenkins package
 sudo dnf install -y java-17-amazon-corretto
-sudo dnf install jenkins
+sudo dnf install -y jenkins
 sudo systemctl daemon-reload
 sudo ln -s /usr/bin/jenkins /usr/local/bin/jenkins
 sudo chmod 777 /usr/local/bin/jenkins
